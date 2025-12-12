@@ -4,12 +4,12 @@ An automated backup tool that organizes documents (txt, docx, pptx, md, etc.) in
 
 ## Features
 
-- 📁 **Smart Folder Hierarchy**: Organizes backups by date → year → month → week → file type
-- 📄 **Multiple File Types**: Supports `.txt`, `.docx`, `.doc`, `.pptx`, `.ppt`, `.md`, `.pdf`, `.xlsx`, `.xls`, `.csv`, `.json`, `.xml`
-- 🔐 **GitHub Integration**: Automatic upload to GitHub via SSH
-- 📏 **Size Limitation Handling**: Logs files over 25MB with detailed information
-- 🚫 **Exclusion Support**: Respects path exclusion patterns from `exlude_paths.txt`
-- 📊 **Detailed Logging**: Generates exclusion logs for monitoring
+-  **Smart Folder Hierarchy**: Organizes backups by date → year → month → week → file type
+-  **Multiple File Types**: Supports `.txt`, `.docx`, `.doc`, `.pptx`, `.ppt`, `.md`, `.pdf`, `.xlsx`, `.xls`, `.csv`, `.json`, `.xml`
+-  **GitHub Integration**: Automatic upload to GitHub via SSH
+-  **Size Limitation Handling**: Logs files over 25MB with detailed information
+-  **Exclusion Support**: Respects path exclusion patterns from `exlude_paths.txt`
+-  **Detailed Logging**: Generates exclusion logs for monitoring
 
 ## Folder Structure
 
@@ -27,23 +27,6 @@ An automated backup tool that organizes documents (txt, docx, pptx, md, etc.) in
                 │   └── [files]
                 └── [other extensions]/
                     └── [files]
-```
-
-### Example
-```
-backups/
-└── 2025-04-20
-    └── 2025
-        └── 04
-            └── W16
-                ├── docx/
-                │   ├── document1.docx
-                │   └── report.docx
-                ├── txt/
-                │   ├── notes.txt
-                │   └── config.txt
-                └── md/
-                    └── README.md
 ```
 
 ## Setup Instructions
