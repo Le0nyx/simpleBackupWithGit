@@ -1,0 +1,18 @@
+# GitHub Backup Configuration File
+# ===================================
+# Instructions: Fill in your GitHub repository details and SSH key path
+
+# GitHub Repository URL (SSH format)
+# Get this from your GitHub repo: Code -> SSH
+# Example: git@github.com:username/my-backups.git
+GITHUB_REPO_URL=git@github.com:your-username/your-backup-repo.git
+
+# Path to your SSH private key
+# On Windows: C:\Users\YourUsername\.ssh\id_rsa
+# On Mac/Linux: /Users/YourUsername/.ssh/id_rsa
+SSH_KEY_PATH=C:\Users\leonm\.ssh\id_rsa
+
+# (Optional) Custom commit message
+# Use {date} placeholder for automatic date insertion
+# Default: Auto backup - {date}
+COMMIT_MESSAGE=Auto backup from GitHub Backupper - {date}
